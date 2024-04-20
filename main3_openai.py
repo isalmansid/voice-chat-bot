@@ -9,7 +9,7 @@ recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
 # Set up your OpenAI API key
-openai.api_key = "sk-proj-T63sTWZJTQmAaUenx43bT3BlbkFJ7UWmOfdF8AJaw9rjdQ0S"
+openai.api_key = "API-KEY"
 
 def speech_to_text():
     with sr.Microphone() as source:
